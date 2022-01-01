@@ -7,3 +7,5 @@ django_web_page
 
 서버 실행 코드 :
 # (myvenv) root@goorm:/workspace/django/mysite# python manage.py runserver 0:80 
+
+# 은석이 사랑해!!ㅎㅎ
