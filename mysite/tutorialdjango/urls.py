@@ -15,12 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from main.views import index, blog
+from main.views import index, blog, postdetails
 urlpatterns = [
     path('admin/', admin.site.urls),
-  
+  # url로 접속 후 첫 화면은 index.html
     path('',index),
-      # url로 접속 후 첫 화면은 index.html
+   # localhost:80/blog 접속하면 blog 페이지    
     path('blog/', blog),
-    # localhost:80/blog 접속하면 blog 페이지
+    #localhost:80/blog/게시글넘버 게시글 세부페이지
+    path('blog/<int:pk>/', postdetails),
+   
 ]

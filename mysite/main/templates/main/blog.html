@@ -8,7 +8,8 @@
         </h1>
         <table>
             {% for list in postlist %}
-            <tr>
+            <tr oneclick="location.href='https://djang-kneks.run.goorm.io/blog/{{list.pk}}/'">
+                
                 <td>
                     {{list.postname}}
                 </td>
