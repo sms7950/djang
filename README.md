@@ -7,5 +7,8 @@ django_web_page
 
 서버 실행 코드 :
 # (myvenv) root@goorm:/workspace/django/mysite# python manage.py runserver 0:80 
-
-게시글 세부페이지 부터 만들기.
+참고할 만한 링크
+웹 공부:
+https://github.com/kei01138/WWW
+인스타그램 PC:
+https://github.com/kei01138/instagramPC
