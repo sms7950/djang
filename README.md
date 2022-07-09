@@ -12,3 +12,6 @@ django_web_page
 https://github.com/kei01138/WWW
 인스타그램 PC:
 https://github.com/kei01138/instagramPC
+
+django+인스타그램 클론코딩:
+# https://cholol.tistory.com/547?category=739855
