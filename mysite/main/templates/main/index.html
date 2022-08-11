@@ -1,11 +1,13 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <title>Instagram</title>
+    <link rel="stylesheet" href="djang/mysite/main/templates/main/style.css>
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="djang/mysite/main/templates/images/instagrams.png" alt="" class="instagram_logo">
+            <img src="../templates/images/instagrams.png" alt="" class="instagram_logo">
             
         </div>
         <div class="search">
@@ -13,17 +15,13 @@
         </div>
         <nav>
             <ul>
-                <li><img src="djang/mysite/main/templates/images/compass.svg" alt="" class="logo_img"</li>
-                <li><img src="djang/mysite/main/templates/images/heart.svg" alt="" class="logo_img"</li>
-                <li><img src="djang/mysite/main/templates/images/profile.svg" alt="" class="logo_img" </li>
+                <li><img src="../templates/images/compass.svg" alt="" class="logo_img"</li>
+                <li><img src="../templates/images/heart.svg" alt="" class="logo_img"</li>
+                <li><img src="/workspace/djang/mysite/main/templates/images/profile.svg" alt="" class="logo_img" </li>
                     
             </ul>
         </nav>
     </header>
-    
-    <h1>메인 페이지입니다</h1>
-    <!-- 정적 이미지 불러오기 -->
-    {% load static %}
-    <img src="{% static 'profile-1.jpg' %}">
+
 </body>
 </html>
