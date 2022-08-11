@@ -4,20 +4,20 @@
     </head>
     <body>
         <h1>
-            Blog Page!
+            Blcog Page!
         </h1>
         <table>
-            {% for list in postlist %}
-            <tr oneclick="location.href='https://djang-kneks.run.goorm.io/blog/{{list.pk}}/'">
+            {% for list in postlist %} <!-- django의 템플릿 기능: {%%} 사이에 if, for 등 임의의 로직을 실행하기 위해 쓰이는 태그-->
+            <tr oneclick="location.href='https://djang-kneks.run.goorm.io/blog/{{list.pk}}/'"> <!--location href = '이동할 페이지 주소' -->
                 
                 <td>
-                    {{list.postname}}
+                    {{list.postname}} <!-- django의 템플릿 기능: {{}} 사이에  단순 변수 출력을 위해서 쓰는 태그,list.postname이 무슨뜻인진 모르겠음.-->
                 </td>
                 <td>
                     {{list.contents}}
                 </td>
             </tr>
-            {% endfor %}
+            {% endfor %} 
         </table>
     </body>
 </html>
