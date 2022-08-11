@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #fafafa;
+}
+header{
+    height:80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #DBDBDB;
+    background-color: #ffffff;
+    /*css부분 햇갈리는 것들 주석 달기*/
+}
+.instagram_logo{
+    width:165px;
+}
+.search input{
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    background-color: #fafafa;
+    text-align: center;
+    color: #999999;
+    
+}
+.logo_img{
+    width: 25px;
+    padding: 10px;
+    padding-right: 0;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+li{
+    margin-right:25px;
+}
