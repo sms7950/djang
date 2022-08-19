@@ -120,7 +120,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
-    #django와 static 폴더 연결
+    #django와 static 폴더 연결 django에서 이미지,비디오 이용하려면 static 파일에 매체가 있어야 함.
     os.path.join(BASE_DIR,'static'),
 
 )
